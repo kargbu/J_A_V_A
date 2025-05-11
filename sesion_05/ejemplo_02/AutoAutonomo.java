@@ -1,4 +1,5 @@
 package JAVA.sesion_05.ejemplo_02;
+
 // Hereda de Vehiculo y usa composición
 public class AutoAutonomo extends Vehiculo {
     SensorGPS gps;

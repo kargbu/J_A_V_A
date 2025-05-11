@@ -1,3 +1,4 @@
+package JAVA.sesion_05.ejemplo_02;
 public class Vehiculo {
     String marca; // Atributo de clase
 

@@ -5,9 +5,11 @@ public class Simulador {
         AutoAutonomo tesla = new AutoAutonomo("Tesla");
         tesla.encender();          // Método heredado de Vehiculo
         tesla.iniciarAutonomia();  // Método propio con composición
-    }
-    Vehiculo miAuto = new Vehiculo("Toyota");
+
+        Vehiculo miAuto = new Vehiculo("Toyota");
         miAuto.encender();  // Se llama al método
+    }
+
 
     
 }
