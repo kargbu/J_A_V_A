@@ -1,13 +1,13 @@
 package JAVA.sesion_05.reto_01;
 
 public class Operador {
-    String nombre;
+    String nombreOperador;
 
-    public Operador (String nombre) {
-        this.nombre = nombre;
+    public Operador (String nombreOperador) {
+        this.nombreOperador = nombreOperador;
     }
 
 public void reportarse() {
-    System.out.println("Operador" + nombre + "reportándose.");
+    System.out.println("Operador" + nombreOperador + "reportándose.");
     }
 }

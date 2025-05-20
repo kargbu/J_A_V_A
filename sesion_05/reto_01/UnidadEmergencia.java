@@ -12,8 +12,8 @@ public abstract class UnidadEmergencia {
     public abstract void responder();
 
     // Método concreto
-    public void activarUnidad() {
-    System.out.println("Actividad de emergencia." + nombre);
+    public void activarOperacion() {
+    System.out.println("Actividad de emergencia: " + nombre);
 
     }
 }
