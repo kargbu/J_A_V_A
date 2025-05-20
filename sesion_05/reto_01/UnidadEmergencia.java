@@ -1,19 +1,19 @@
 package JAVA.sesion_05.reto_01;
 
 public abstract class UnidadEmergencia {
-    protected String nombre;
+    protected String nombreUnidad;
 
     // Constructor
-    public UnidadEmergencia(String nombre) {
-        this.nombre = nombre;
+    public UnidadEmergencia(String nombreUnidad) {
+        this.nombreUnidad = nombreUnidad;
     }
 
     // Método abstracto
     public abstract void responder();
 
     // Método concreto
-    public void activarOperacion() {
-    System.out.println("Actividad de emergencia: " + nombre);
+    public void activarUnidad() {
+    System.out.println("Actividad de emergencia: " + nombreUnidad);
 
     }
 }
